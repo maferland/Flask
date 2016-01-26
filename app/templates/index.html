@@ -3,6 +3,14 @@
 <link rel="stylesheet" href='/static/style.css' />
 </head>
 <body>
-<h1>Hello from a template!</h1>
+<h1>Remote GCC Compiler</h1>
+<form action="/" method="Post">
+<textarea name="text" rows="4" cols="50">
+<-------Copier le code ici !------->
+</textarea>
+<br/>
+<input type="submit" value="Submit">
+</form>
+<p>Output : {{ code }}</p>
 </body>
 </html>
