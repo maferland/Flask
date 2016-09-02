@@ -9,3 +9,6 @@ How to start :
 - pip install Flask
 
 You're good to go !
+
+Disclaimer :
+This is a proof of concept, no effort was made to make the UI interesting.
